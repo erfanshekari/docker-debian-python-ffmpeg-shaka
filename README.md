@@ -1,10 +1,8 @@
-# Debian Based Python, FFmpeg and Shaka Packager Dockerfile
+# FFmpeg and Shaka Packager Dockerfile
 
-This Dockerfile Build Latest Version of FFmpeg On Top Of Python Official Image
+This dockerfile contains instructions for building ffmpeg/ffprobe and the shaka packager, which is completely usable for video encoding and HLS/Dash packaging.
 
-Suitable For 
-* Video Transcoding
-* HLS/Dash Packaging
+Available commands:
 ~~~shell
 ffmpeg [command]
 ffprobe [command]
